@@ -158,6 +158,7 @@ Tüm küçük çaplı pratikler, araştırma kodları ve modüller mantıksal mo
 | **[`applied-machine-learning`](https://github.com/Rasittekin18/applied-machine-learning)** | Yakıt tüketimi regresyonu, medikal kanser ve kalp krizi sınıflandırması, Titanic hayatta kalma modeli, su kalitesi ve dünya mutluluk endeksi EDA çalışmaları. | 10 Proje | Scikit-Learn, Pandas, Seaborn, 60+ Algoritmik Notebook |
 | **[`deep-learning-foundations`](https://github.com/Rasittekin18/deep-learning-foundations)** | ANN, CNN, Zaman Serisi RNN/LSTM mimarileri, ResNet, Transfer Learning, GANs, Gürültü Giderici Denoising AutoEncoder ve el yazısı rakam farkı modeli. | 5 Proje | PyTorch, TensorFlow, Keras, AutoEncoders |
 | **[`data-science-roadmap`](https://github.com/Rasittekin18/data-science-roadmap)** | Python & OOP mimarisi, Rent-a-Car nesne yönelimli simülasyonu, NumPy/Pandas veri işleme, interaktif Plotly görselleştirmeleri ve betimsel istatistik. | 5 Modül | Python OOP, NumPy, Pandas, Plotly, Statistics |
+| **[`web-applications-showcase`](https://github.com/Rasittekin18/web-applications-showcase)** | Dil öğrenme platformu (LearnLanguage), tarayıcı tabanlı fotoğraf-PDF dönüştürücüsü ve bulut senkronizasyonlu hedef planlayıcısı (Planner App). | 3 Proje | React 18, TypeScript, Vite, Firebase, Canvas API |
 
 ---
 
