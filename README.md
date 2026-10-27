@@ -4,7 +4,7 @@
 ### AI & Machine Learning Engineer
 **Embedded Systems & Electrical-Electronics Engineering Background**
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=0EA5E9&center=true&vcenter=true&width=780&lines=AI+%26+Machine+Learning+Engineer;Multi-Agent+Orchestration%2C+LangGraph+%26+Task+Parallelization;Autonomous+AI+Agents%2C+RAG+Architectures+%26+LLM+Pipelines;Embedded+Systems+%26+Hardware-Level+Electronics+Background;Edge+AI%2C+Real-Time+Computer+Vision+%26+Vehicle+Telemetry)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=0EA5E9&center=true&vcenter=true&width=780&lines=AI+%26+Machine+Learning+Engineer;Multi-Agent+Orchestration%2C+LangGraph+%26+Task+Parallelization;Autonomous+AI+Agents%2C+RAG+Architectures+%26+LLM+Pipelines;Embedded+Systems+%26+Hardware-Level+Electronics+Background;Edge+AI%2C+Real-Time+Computer+Vision+%26+Vehicle+Telemetry;Reinforcement+Learning%2C+DQN+%26+Custom+Environment+Design)](https://git.io/typing-svg)
 
 <br/>
 
@@ -78,11 +78,12 @@ Elektrik-Elektronik Mühendisliği lisans temeli üzerine Yapay Zeka yüksek lis
       <td>
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+        <img src="https://img.shields.io/badge/Gym-Reinforcement_Learning-0081A7?style=flat-square" />
         <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
         <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
         <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
         <br/>
-        ANN, CNN, Zaman Serisi RNN/LSTM, ResNet, Oto-kodlayıcılar (AutoEncoders), GANs, Topluluk Öğrenmesi (Ensemble), Çapraz Doğrulama, Boyut İndirgeme (PCA) ve Özellik Mühendisliği.
+        Pekiştirmeli Öğrenme (Tabular Q-Learning, Deep Q-Networks DQN, DCQL, Custom Gym Ortam Tasarımı), ANN, CNN, Zaman Serisi RNN/LSTM, ResNet, Oto-kodlayıcılar (AutoEncoders), GANs, Topluluk Öğrenmesi (Ensemble), Çapraz Doğrulama, Boyut İndirgeme (PCA) ve Özellik Mühendisliği.
       </td>
     </tr>
     <tr>
@@ -147,6 +148,7 @@ Tüm araştırma kodları, pratikler ve modüller mantıksal monorepolarda topla
 | Koleksiyon | Açıklama & Kapsam | Proje Hacmi | Temel Teknolojiler |
 | :--- | :--- | :-: | :--- |
 | **[`generative-ai-llm-lab`](https://github.com/Rasittekin18/generative-ai-llm-lab)** | LangChain & LangGraph ile ReAct ajanları, paralel görev orkestrasyonu, vektör tabanlı RAG mimarileri, Hugging Face transformers ve Mistral-7B PEFT/LoRA fine-tuning. | 6 Proje | LangChain, LangGraph, Multi-Agent, Transformers, PEFT |
+| **[`reinforcement-learning-lab`](https://github.com/Rasittekin18/reinforcement-learning-lab)** | Bellman & TD tabanlı Tabular Q-Learning, Experience Replay & Target Network ile Deep Q-Networks (DQN), özel Pygame ortam tasarımı ve Atari Pong DCQL görsel ajan mimarileri. | 5 Proje | OpenAI Gym, TensorFlow, Pygame, NumPy, Scikit-Image |
 | **[`computer-vision-projects`](https://github.com/Rasittekin18/computer-vision-projects)** | Sürücü yorgunluk tespiti, şerit takibi, otopark doluluk analizi, MediaPipe 3D yüz/iskelet/el takibi ve YOLOv8 şişe algılama modelleri. | 12 Proje | OpenCV, MediaPipe, YOLOv8, SciPy |
 | **[`applied-machine-learning`](https://github.com/Rasittekin18/applied-machine-learning)** | Yakıt tüketimi regresyonu, medikal kanser ve kalp krizi sınıflandırması, Titanic hayatta kalma analizi, su kalitesi ve mutluluk endeksi EDA çalışmaları. | 10 Proje | Scikit-Learn, Pandas, Seaborn, 60+ Algoritmik Notebook |
 | **[`deep-learning-foundations`](https://github.com/Rasittekin18/deep-learning-foundations)** | ANN, CNN, Zaman Serisi RNN/LSTM mimarileri, ResNet, Transfer Learning, GANs, Gürültü Giderici Denoising AutoEncoder ve el yazısı rakam farkı modeli. | 5 Proje | PyTorch, TensorFlow, Keras, AutoEncoders |
