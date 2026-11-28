@@ -16,7 +16,7 @@
 
 <br/>
 
-**7 Curated Monorepos &nbsp;&bull;&nbsp; 55+ Applied Projects & Production Apps &nbsp;&bull;&nbsp; Hardware-to-Cloud & Agentic AI**
+**7 Curated Monorepos &nbsp;&bull;&nbsp; 58+ Applied Projects & Production Apps &nbsp;&bull;&nbsp; Hardware-to-Cloud & Agentic AI**
 
 </div>
 
@@ -27,9 +27,9 @@
 Elektrik-Elektronik Mühendisliği lisans temeli üzerine Yapay Zeka yüksek lisansı ile uzmanlaşmış, gömülü donanım seviyesinden dağıtık otonom yapay zeka sistemlerine kadar uçtan uca üretim yazılımları inşa eden Yapay Zeka Mühendisiyim. Çalışmalarım; deterministik mühendislik güvenilirliğini modern LLM ajanları, çok modlu bilgi geri çağırma ve gerçek zamanlı bilgisayarlı görü mimarileriyle birleştirmeye odaklanır:
 
 - **Çoklu Ajan Orkestrasyonu, MCP & Otomasyon:** LangGraph/StateGraph ve `asyncio` paralel iş hatları, TypeScript/Python **Model Context Protocol (MCP)** sunucuları, n8n otonom iş akışları ile insan onaylı (Human-in-the-Loop) ve 2 adımlı güvenlik duvarlı ajan sistemleri tasarlıyorum.
-- **Hibrit & Çok Modlu RAG (VLM + SQL + Vector):** Yerel (Ollama, Faster-Whisper, Türkçe SBERT) ve bulut (Gemini, OpenAI, Groq) modellerini salt-okunur SQLite, FAISS/Qdrant, Dense + BM25 + RRF hibrit arama ve Pydantic v2 yapılandırılmış çıktılarla birleştiren halüsinasyon kontrollü sistemler geliştiriyorum.
+- **Hibrit & Çok Modlu RAG (VLM + SQL + Vector):** Yerel (Ollama, Faster-Whisper, Vosk, Türkçe SBERT) ve bulut (Gemini, OpenAI, Groq) modellerini salt-okunur SQLite, FAISS/Qdrant, Dense + BM25 + RRF hibrit arama ve Pydantic v2 yapılandırılmış çıktılarla birleştiren halüsinasyon kontrollü sistemler geliştiriyorum.
 - **Gerçek Zamanlı Bilgisayarlı Görü & 3D Geometri:** YOLOv8, MediaPipe, PyTorch (MLP/Autoencoder), OpenCV 2D/3D kamera metrolojisi (`solvePnP`, çift yönlü homografi, ArUco/EXIF kalibrasyonu), belge aydınlatma normalizasyonu/OCR ve uç donanım (Edge AI) çıkarım boru hatları kuruyorum.
-- **Donanımdan Buluta & Full-Stack Ürünleştirme:** STM32 (C), ESP32 ve CAN Bus telemetrisinden AWS (S3, Athena) analitiğine; FastAPI (REST/SSE), PySide6/Win32 masaüstü uygulamaları, React 19/TypeScript, mobil PWA ve otomatik test paketleriyle (Pytest/Vitest) uçtan uca ürünler teslim ediyorum.
+- **Donanımdan Buluta & Full-Stack Ürünleştirme:** STM32 (C), ESP32 ve CAN Bus telemetrisinden AWS (S3, Athena) analitiğine; FastAPI (REST/SSE), PySide6/Win32 masaüstü uygulamaları, React 19/TypeScript, mobil PWA, yerel Android (Kotlin) ve otomatik test paketleriyle (Pytest/Vitest) uçtan uca ürünler teslim ediyorum.
 
 ---
 
@@ -73,7 +73,7 @@ Elektrik-Elektronik Mühendisliği lisans temeli üzerine Yapay Zeka yüksek lis
         <img src="https://img.shields.io/badge/SQLite-Read--Only_Guardrails-0284C7?style=flat-square" />
         <img src="https://img.shields.io/badge/Turkish_SBERT-FAISS_RAG-4F46E5?style=flat-square" />
       </p>
-      <p>Fiş, fatura ve garanti belgelerini insan onaylı (Human-in-the-Loop) önizleme ve SHA-256 tekrar kontrolü ile yapılandırılmış JSON'a çeviren hibrit ajan. Sayısal ve tarihsel soruları kendi kendini düzelten salt-okunur <code>SELECT</code> SQLite yönlendirmesiyle, garanti/iade şartlarını ise Türkçe SBERT + FAISS anlamsal RAG ile halüsinasyonsuz yanıtlar.</p>
+      <p>Fiş, fatura ve garanti belgelerini insan onaylı (Human-in-the-Loop) önizleme, belge düzenleme modalı ve SHA-256 tekrar kontrolü ile yapılandırılmış JSON'a çeviren hibrit ajan. Sayısal/tarihsel soruları kendi kendini düzelten salt-okunur <code>SELECT</code> SQLite yönlendirmesiyle, garanti/iade şartlarını Türkçe SBERT + FAISS RAG ile yanıtlar; kalıcı sohbet geçmişi ve UTF-8 BOM CSV dışa aktarım sunar (11 Pytest testi).</p>
     </td>
   </tr>
   <tr>
@@ -110,6 +110,8 @@ Elektrik-Elektronik Mühendisliği lisans temeli üzerine Yapay Zeka yüksek lis
 | **[`DocSnap Desktop v2.0`](https://github.com/Rasittekin18/computer-vision-projects/tree/main/DocSnap_Desktop)** | Belge Tarama & OCR | 6 stratejili köşe tespiti, perspektif düzeltme + Hough deskew, gölge giderme/beyazlatma, 8 noktalı stüdyo tuvali ve aranabilir OCR PDF / POS fiş CSV raporu (20 Pytest testi). | OpenCV, FastAPI, PyMuPDF, Tesseract-OCR, Pytest |
 | **[`DeskPosture Guardian`](https://github.com/Rasittekin18/computer-vision-projects/tree/main/DeskPosture-Guardian)** | Gerçek Zamanlı Ergonomi | Mesafeden bağımsız iskelet takibi, `PostureMLP` ve PyTorch Autoencoder anomali tespiti, masaüstü yüzen durum rozeti, 20-20-20 mola takibi ve Streamlit analitik paneli. | PyTorch, MediaPipe Pose, OpenCV, Streamlit, Tkinter |
 | **[`JobFit AI`](https://github.com/Rasittekin18/applied-machine-learning/tree/main/JobFit_AI)** | Kariyer & ATS Analizi | PDF/DOCX CV ve iş ilanlarını hibrit skorla (%40 TF-IDF + %60 beceri) eşleştiren, 4 boyutlu Plotly radar ve 5-Fold CV çoklu model benchmark sunan web uygulaması (25 Pytest testi). | Scikit-Learn, TF-IDF, Streamlit, Plotly, PyMuPDF, Pytest |
+| **[`AirTouch v2.1 Pro`](https://github.com/Rasittekin18/deep-learning-foundations/tree/main/AirTouch)** | Temassız Kontrol & Sesli AI | 21 noktalı 3D el iskeleti (`MediaPipe` + PyTorch Residual MLP), çevrimdışı Türkçe sesli komut (`Vosk`), dinamik YouTube açma, 4 katmanlı anti-spam koruması ve çift ekran PiP HUD (52 Pytest testi). | PyTorch, MediaPipe, Vosk TR ASR, OpenCV, Streamlit, Pytest |
+| **[`Smart Wake-Up RL`](https://github.com/Rasittekin18/reinforcement-learning-lab/tree/main/05-smart-wake-up-assistant)** | Pekiştirmeli Öğrenme & Mobil | Biyolojik sirkadiyen uyku simülasyonu, anti-hacking ödül şekillendirmeli PyTorch DQN, interaktif Q-Inspector Streamlit paneli ve sıfır bağımlılıklı yerel Android 14 (Kotlin) uygulaması (17 test). | PyTorch DQN, Gymnasium, Streamlit, Android (Kotlin), Pytest |
 
 ---
 
@@ -144,9 +146,10 @@ Elektrik-Elektronik Mühendisliği lisans temeli üzerine Yapay Zeka yüksek lis
         <img src="https://img.shields.io/badge/FAISS-Similarity_Search-008080?style=flat-square" />
         <img src="https://img.shields.io/badge/Elasticsearch-Hybrid_Search-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
         <img src="https://img.shields.io/badge/Faster--Whisper-ASR-0F172A?style=flat-square" />
+        <img src="https://img.shields.io/badge/Vosk-Offline_TR_ASR-1E293B?style=flat-square" />
         <img src="https://img.shields.io/badge/SBERT-Multilingual%2FTR-4F46E5?style=flat-square" />
         <br/>
-        Hibrit Arama (Dense + BM25 + RRF), Text-to-SQL + Vektör Yönlendirme, PEFT/QLoRA Fine-Tuning, Yerel NER, TextTiling Semantik Konu Bölümleme, Yeniden Sıralama (Reranking) ve Halüsinasyon Kontrolü.
+        Hibrit Arama (Dense + BM25 + RRF), Text-to-SQL + Vektör Yönlendirme, PEFT/QLoRA Fine-Tuning, Yerel NER, Çevrimdışı Türkçe Sesli Komut (ASR), TextTiling Semantik Konu Bölümleme, Yeniden Sıralama (Reranking) ve Halüsinasyon Kontrolü.
       </td>
     </tr>
     <tr>
@@ -167,13 +170,13 @@ Elektrik-Elektronik Mühendisliği lisans temeli üzerine Yapay Zeka yüksek lis
       <td>
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
         <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
-        <img src="https://img.shields.io/badge/Gym-Reinforcement_Learning-0081A7?style=flat-square" />
+        <img src="https://img.shields.io/badge/Gymnasium-Reinforcement_Learning-0081A7?style=flat-square" />
         <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
         <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
         <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
         <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" />
         <br/>
-        Pekiştirmeli Öğrenme (Tabular Q-Learning, Deep Q-Networks DQN, DCQL, Custom Gym Ortam Tasarımı), MLP, AutoEncoders, CNN, RNN/LSTM, ResNet, GANs, Topluluk Öğrenmesi (Ensemble), 5-Fold Çapraz Doğrulama, Özellik Mühendisliği, TF-IDF ve İstatistiksel Modelleme.
+        Pekiştirmeli Öğrenme (Tabular Q-Learning, Deep Q-Networks DQN, DCQL, Anti-Hacking Reward Shaping, Custom Gym Ortam Tasarımı), MLP, AutoEncoders, CNN, RNN/LSTM, ResNet, GANs, Topluluk Öğrenmesi (Ensemble), 5-Fold Çapraz Doğrulama, Özellik Mühendisliği, TF-IDF ve İstatistiksel Modelleme.
       </td>
     </tr>
     <tr>
@@ -183,12 +186,13 @@ Elektrik-Elektronik Mühendisliği lisans temeli üzerine Yapay Zeka yüksek lis
         <img src="https://img.shields.io/badge/TypeScript-Node.js-3178C6?style=flat-square&logo=typescript&logoColor=white" />
         <img src="https://img.shields.io/badge/React_19-Vite-61DAFB?style=flat-square&logo=react&logoColor=black" />
         <img src="https://img.shields.io/badge/PySide6-Win32_Desktop-41CD52?style=flat-square&logo=qt&logoColor=white" />
+        <img src="https://img.shields.io/badge/Kotlin-Android_14-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
         <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
         <img src="https://img.shields.io/badge/AWS-S3_%7C_Athena_%7C_Lambda-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
         <img src="https://img.shields.io/badge/Pytest_%7C_Vitest-0F172A?style=flat-square" />
         <br/>
-        Asenkron REST &amp; SSE Akışları, Mobil PWA (WebRTC/Canvas), Sistem Tepsisi Masaüstü Uygulamaları, SQLite / Firebase, Telegram &amp; WhatsApp (Baileys) Köprüleri, Grafana ve Otomatik Test Paketleri.
+        Asenkron REST &amp; SSE Akışları, Mobil PWA (WebRTC/Canvas), Yerel Android (Kotlin), Sistem Tepsisi Masaüstü Uygulamaları, SQLite / Firebase, Telegram &amp; WhatsApp (Baileys) Köprüleri, Grafana ve Otomatik Test Paketleri.
       </td>
     </tr>
     <tr>
@@ -215,12 +219,12 @@ Tüm araştırma kodları, uçtan uca uygulamalar ve temel modüller mantıksal 
 | Koleksiyon | Açıklama & Kapsam | Proje Hacmi | Temel Teknolojiler |
 | :--- | :--- | :-: | :--- |
 | **[`generative-ai-llm-lab`](https://github.com/Rasittekin18/generative-ai-llm-lab)** | SecondBrain Assistant, WP-PC Pilot (MCP), ReceiptGuard AI (VLM+SQL+RAG), LectureMind, ContextLingo, n8n Ollama Telegram ajanı, LangGraph/LangChain ReAct & RAG uygulamaları ve Mistral-7B PEFT/QLoRA fine-tuning. | **12 Proje** | LangGraph, MCP, Google GenAI, Ollama, FastAPI, PEFT/QLoRA |
-| **[`reinforcement-learning-lab`](https://github.com/Rasittekin18/reinforcement-learning-lab)** | Bellman & TD tabanlı Tabular Q-Learning, Experience Replay & Target Network ile Deep Q-Networks (DQN), özel Pygame ortam tasarımı ve Atari Pong DCQL görsel ajan mimarileri. | **5 Proje** | OpenAI Gym, TensorFlow, Pygame, NumPy, Scikit-Image |
+| **[`reinforcement-learning-lab`](https://github.com/Rasittekin18/reinforcement-learning-lab)** | Smart Wake-Up RL Assistant Capstone (PyTorch DQN + Streamlit Q-Inspector + Android 14 Kotlin), Tabular Q-Learning, DQN (Experience Replay), özel Pygame ortam tasarımı ve Atari Pong DCQL görsel ajan mimarileri. | **5 Proje** | Gymnasium, PyTorch DQN, TensorFlow, Pygame, Kotlin Android |
 | **[`computer-vision-projects`](https://github.com/Rasittekin18/computer-vision-projects)** | SnapMeasure 3D metroloji PWA, DocSnap Desktop v2.0 belge tarama/OCR stüdyosu, DeskPosture Guardian ergonomi asistanı, sürücü yorgunluk/şerit/otopark sistemleri, MediaPipe 3D takip ve YOLOv8 algılama. | **15 Proje** | OpenCV, MediaPipe, YOLOv8, PyTorch, FastAPI, Tesseract-OCR |
 | **[`applied-machine-learning`](https://github.com/Rasittekin18/applied-machine-learning)** | JobFit AI (Streamlit/NLP CV analizörü), yakıt tüketimi regresyonu, kalp krizi ve kanser sınıflandırması, Titanic, su kalitesi/mutluluk/uzay EDA çalışmaları ve 60+ algoritmik notebook. | **11 Proje** | Scikit-Learn, TF-IDF, Streamlit, Plotly, Pandas, Pytest |
-| **[`deep-learning-foundations`](https://github.com/Rasittekin18/deep-learning-foundations)** | ANN, CNN, Zaman Serisi RNN/LSTM, ResNet, Transfer Learning, GANs, Gürültü Giderici Denoising AutoEncoder ve çok görevli MNIST el yazısı rakam farkı modeli. | **5 Proje** | PyTorch, TensorFlow, Keras, AutoEncoders |
-| **[`data-science-roadmap`](https://github.com/Rasittekin18/data-science-roadmap)** | Python & OOP mimarisi, Rent-a-Car simülasyonu, NumPy/Pandas veri işleme, interaktif Plotly görselleştirmeleri ve betimsel istatistik temelleri. | **5 Modül** | Python OOP, NumPy, Pandas, Plotly, Statistics |
-| **[`web-applications-showcase`](https://github.com/Rasittekin18/web-applications-showcase)** | LearnLanguage (React 19/TypeScript/Vitest/Firebase), klasör seçimi ve doğal sıralamalı tarayıcı tabanlı Photo-to-PDF dönüştürücü ve bulut senkronizasyonlu Planner App. | **3 Proje** | React 19, TypeScript, Vite, Vitest, Firebase, Canvas API |
+| **[`deep-learning-foundations`](https://github.com/Rasittekin18/deep-learning-foundations)** | AirTouch v2.1 Pro (21-nokta el iskeleti + PyTorch + Vosk TR sesli kontrol), ANN, CNN, RNN/LSTM, ResNet, Transfer Learning, GANs, Denoising AutoEncoder ve çok görevli MNIST modeli. | **6 Proje** | PyTorch, TensorFlow, MediaPipe, Vosk, Streamlit, AutoEncoders |
+| **[`data-science-roadmap`](https://github.com/Rasittekin18/data-science-roadmap)** | Süpermarket fiyat trendleri ve sepet optimizasyonu (Tidy Data, Tukey IQR), Python & OOP mimarisi, Rent-a-Car simülasyonu, NumPy/Pandas veri işleme, Plotly görselleştirmeleri ve istatistik temelleri. | **6 Modül** | Python OOP, NumPy, Pandas, Plotly, Statistics |
+| **[`web-applications-showcase`](https://github.com/Rasittekin18/web-applications-showcase)** | LearnLanguage (React 19/TypeScript/Vitest/Firebase), klasör seçimi ve doğal sıralamalı tarayıcı tabanlı Photo-to-PDF dönüştürücü ve Misafir Modu, çoklu tema, JSON yedekleme ve bulut senkronizasyonlu Planner App. | **3 Proje** | React 19, TypeScript, Vite, Vitest, Firebase, Canvas API |
 
 ---
 
